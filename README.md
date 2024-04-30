@@ -1,1 +1,1 @@
-# approx-optimize_scopf
+# Approximate-and-Optimize for SCOPF
