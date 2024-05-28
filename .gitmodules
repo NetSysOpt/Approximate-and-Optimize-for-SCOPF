@@ -1,6 +1,0 @@
-[submodule "approx-optimize-scopf"]
-	path = approx-optimize-scopf
-	url = https://github.com/222042015/approx-optimize-scopf.git
-[submodule "scopf-approx"]
-	path = scopf-approx
-	url = https://github.com/222042015/scopf-approx.git
