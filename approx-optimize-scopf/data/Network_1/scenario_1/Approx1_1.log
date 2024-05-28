@@ -1,0 +1,263 @@
+running Approx1
+  ../../../data/Network_1/scenario_1/case.con
+  ../../../data/Network_1/scenario_1/case.inl
+  ../../../data/Network_1/scenario_1/case.raw
+  ../../../data/Network_1/scenario_1/case.rop
+  600
+  2
+  scenario_1
+[info | PMSC]: Parsing Files
+[info | PMSC]:   raw: ../../../data/Network_1/scenario_1/case.raw
+[info | PMSC]:   rop: ../../../data/Network_1/scenario_1/case.rop
+[info | PMSC]:   inl: ../../../data/Network_1/scenario_1/case.inl
+[info | PMSC]:   con: ../../../data/Network_1/scenario_1/case.con
+[info | PMSC]: skipping power models data warnings
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.13, running with linear solver MUMPS 5.6.2.
+
+Number of nonzeros in equality constraint Jacobian...:    15646
+Number of nonzeros in inequality constraint Jacobian.:     7064
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:     4228
+                     variables with only lower bounds:      593
+                variables with lower and upper bounds:      763
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     3475
+Total number of inequality constraints...............:     2346
+        inequality constraints with only lower bounds:      580
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:     1766
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  3.0147548e+06 2.69e+00 9.88e+01   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  3.0543341e+06 2.69e+00 5.93e+03   0.0 3.58e+00    -  5.54e-01 2.61e-03f  1
+   2  9.4265073e+06 2.60e+00 6.07e+03   1.5 1.63e+01    -  4.38e-02 3.22e-02f  1
+   3  3.6863777e+07 2.38e+00 5.27e+03   1.7 2.26e+01    -  7.83e-02 8.34e-02f  1
+   4  9.7916984e+07 1.79e+00 6.92e+03   1.6 1.43e+01    -  1.22e-01 2.49e-01f  1
+   5  7.3795101e+07 1.06e+00 8.38e+03   1.0 9.44e+00    -  2.12e-01 4.09e-01f  1
+   6  5.2085409e+07 5.73e-01 5.00e+03   0.8 8.51e+00    -  3.84e-01 4.58e-01f  1
+   7  2.8749505e+07 3.42e-02 2.41e+02   0.8 7.17e+00    -  9.18e-01 9.90e-01f  1
+   8  2.9108908e+07 2.65e-02 2.34e+04   0.8 4.29e+00    -  8.30e-01 6.95e-01f  1
+   9  1.8449214e+07 7.71e-03 1.77e+02   0.6 2.26e+00    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  7.3005427e+06 1.03e-02 3.99e+04   0.2 1.16e+00    -  6.45e-01 9.04e-01f  1
+  11  1.1413241e+07 8.86e-03 7.82e+04   0.6 1.76e+00    -  1.00e+00 4.01e-01f  1
+  12  9.0019596e+06 6.85e-03 4.58e+01   0.3 1.29e+00    -  1.00e+00 1.00e+00f  1
+  13  3.1548469e+06 3.94e-03 6.12e+03  -0.1 1.18e+00    -  9.09e-01 1.00e+00f  1
+  14  2.1120435e+06 1.53e-03 7.24e+03  -0.5 8.54e-01    -  1.00e+00 6.57e-01f  1
+  15  1.4397925e+06 1.16e-03 3.26e+03  -0.6 7.22e-01    -  1.00e+00 7.36e-01f  1
+  16  2.1178642e+06 4.95e-03 4.65e+03  -0.2 9.91e-01    -  1.00e+00 6.71e-01f  1
+  17  1.9169811e+06 1.88e-03 1.58e+01  -0.3 4.32e-01    -  1.00e+00 1.00e+00f  1
+  18  9.2958687e+05 6.38e-04 7.93e+01  -0.7 3.52e-01    -  9.94e-01 1.00e+00f  1
+  19  6.3100064e+05 4.49e-04 1.09e+03  -1.1 2.72e-01    -  1.00e+00 7.98e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  4.8001945e+05 5.19e-04 7.91e+02  -1.3 2.53e-01    -  1.00e+00 7.22e-01f  1
+  21  3.8437426e+05 4.35e-03 1.82e+02  -1.4 9.44e-01    -  1.00e+00 8.43e-01f  1
+  22  4.1403153e+05 2.82e-03 9.01e+02  -1.1 2.04e+00    -  1.00e+00 3.25e-01f  1
+  23  3.9142221e+05 8.39e-03 1.43e+02  -1.3 2.66e+00    -  1.00e+00 6.63e-01f  1
+  24  3.5364498e+05 5.41e-03 1.95e+02  -1.4 1.54e+00    -  6.94e-01 4.90e-01f  1
+  25  3.7390681e+05 7.34e-03 5.16e+02  -1.0 2.54e+00    -  4.63e-01 2.21e-01f  1
+  26  6.1645160e+05 9.55e-03 4.82e+03  -0.6 3.47e+00    -  8.33e-01 3.54e-01f  1
+  27  6.5152071e+05 6.41e-03 2.29e+03  -0.8 2.57e+00    -  6.54e-01 3.54e-01f  1
+  28  6.8639495e+05 3.44e-03 5.86e+02  -0.8 2.64e+00    -  7.57e-01 7.36e-01f  1
+  29  6.9010036e+05 2.53e-03 1.36e+02  -0.8 1.52e+00    -  1.00e+00 7.51e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  6.9228459e+05 1.47e-02 2.14e+02  -0.8 5.01e+00    -  3.99e-01 8.22e-01f  1
+  31  6.7604081e+05 3.93e-03 9.61e+00  -0.8 1.36e+00    -  1.00e+00 1.00e+00f  1
+  32  6.8346642e+05 5.94e-05 3.17e+00  -0.8 1.60e-01    -  1.00e+00 1.00e+00h  1
+  33  2.6308559e+05 1.31e-03 3.50e+02  -1.3 1.13e+00    -  9.41e-01 9.96e-01f  1
+  34  2.2819963e+05 2.54e-03 2.64e+02  -1.4 1.91e+00    -  1.00e+00 8.83e-01f  1
+  35  3.2603973e+05 1.91e-03 6.20e+00  -1.2 1.28e+00    -  1.00e+00 1.00e+00f  1
+  36  2.7726481e+05 3.24e-04 5.18e+00  -1.3 1.21e+00    -  1.00e+00 1.00e+00f  1
+  37  2.0608129e+05 2.29e-03 8.27e+01  -1.5 2.66e+00    -  1.00e+00 9.24e-01f  1
+  38  1.9591768e+05 1.62e-03 3.14e+00  -1.5 2.25e+00    -  1.00e+00 1.00e+00f  1
+  39  1.4356746e+05 6.60e-03 2.33e+02  -1.8 4.86e+00    -  9.98e-01 7.48e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  1.2895431e+05 4.60e-03 1.24e+03  -2.0 2.31e+00    -  1.00e+00 3.92e-01f  1
+  41  1.0459586e+05 2.92e-03 3.98e+02  -2.1 2.36e+00    -  1.00e+00 7.89e-01f  1
+  42  9.5992217e+04 1.37e-03 4.74e+02  -2.3 7.55e-01    -  1.00e+00 5.25e-01f  1
+  43  8.2336956e+04 8.58e-04 4.02e+02  -2.8 6.90e-01    -  1.00e+00 6.87e-01f  1
+  44  8.2517572e+04 1.58e-04 6.01e+00  -2.4 5.44e-01    -  1.00e+00 8.34e-01h  1
+  45  7.6824202e+04 1.36e-04 2.02e+02  -2.9 2.52e-01    -  1.00e+00 6.46e-01f  1
+  46  7.2426491e+04 8.09e-05 9.06e+00  -3.0 2.11e-01    -  1.00e+00 9.71e-01f  1
+  47  7.0268919e+04 6.81e-05 2.56e+01  -3.5 1.66e-01    -  1.00e+00 8.54e-01f  1
+  48  6.9858793e+04 1.83e-05 7.96e-01  -3.5 1.03e-01    -  1.00e+00 9.73e-01h  1
+  49  6.9261151e+04 2.97e-05 1.85e+01  -4.0 2.07e-01    -  1.00e+00 6.91e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  6.8717690e+04 1.06e-05 1.72e+00  -4.6 1.21e-01    -  1.00e+00 9.56e-01h  1
+  51  6.8649403e+04 5.27e-06 4.89e+00  -5.1 2.02e-01    -  1.00e+00 7.53e-01h  1
+  52  6.8629636e+04 4.01e-06 4.69e+01  -5.8 2.82e-01    -  1.00e+00 3.19e-01h  1
+  53  6.8619780e+04 4.11e-06 3.24e+01  -5.2 1.83e-01    -  1.00e+00 5.23e-01h  1
+  54  6.8616316e+04 3.54e-06 8.81e+01  -5.6 1.04e-01    -  1.00e+00 1.42e-01h  1
+  55  6.8603944e+04 2.77e-06 1.07e+02  -6.2 1.42e-01    -  1.00e+00 4.05e-01h  1
+  56  6.8600428e+04 5.39e-06 1.30e+02  -5.9 3.90e-01    -  1.00e+00 1.95e-01h  1
+  57  6.8597891e+04 4.67e-06 1.49e+02  -6.1 1.16e-01    -  1.00e+00 1.72e-01h  1
+  58  6.8592984e+04 3.38e-06 1.43e+02  -6.6 2.09e-01    -  1.00e+00 2.97e-01h  1
+  59  6.8591729e+04 4.50e-06 7.53e+01  -5.9 5.22e-01    -  1.00e+00 1.91e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  60  6.8590622e+04 4.10e-06 1.09e+02  -6.8 2.42e-01    -  7.14e-01 9.16e-02h  1
+  61  6.8588825e+04 3.67e-06 1.21e+02  -6.8 5.73e-01    -  1.00e+00 1.29e-01h  1
+  62  6.8591648e+04 3.10e-06 1.34e+02  -5.2 6.66e-01    -  7.06e-01 2.26e-01h  1
+  63  6.8591951e+04 2.01e-06 2.28e+01  -5.5 1.86e-01    -  1.00e+00 3.50e-01h  1
+  64  6.8590651e+04 7.78e-06 3.38e+01  -5.7 2.66e-01    -  1.00e+00 3.92e-01f  2
+  65  6.8606384e+04 1.85e-06 1.54e-01  -5.2 5.22e-02    -  1.00e+00 1.00e+00h  1
+  66  6.8599606e+04 5.19e-06 1.71e-02  -5.3 8.22e-02    -  1.00e+00 1.00e+00h  1
+  67  6.8599495e+04 1.22e-07 6.31e-03  -5.3 1.41e-02    -  1.00e+00 1.00e+00h  1
+  68  6.8585857e+04 7.45e-08 3.27e+01  -6.4 2.08e-02    -  1.00e+00 7.66e-01h  1
+  69  6.8582711e+04 7.45e-07 7.26e+01  -7.6 9.56e-02    -  1.00e+00 6.29e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  70  6.8581110e+04 5.71e-07 3.35e-03  -6.7 5.22e-02    -  1.00e+00 1.00e+00h  1
+  71  6.8581101e+04 4.68e-08 7.50e-01  -6.7 3.05e-03    -  1.00e+00 9.18e-01h  1
+  72  6.8580489e+04 8.19e-08 3.40e+00  -7.7 4.58e-02    -  1.00e+00 8.15e-01h  1
+  73  6.8580459e+04 7.85e-08 6.92e+00  -8.3 4.71e-01    -  1.00e+00 5.88e-02h  1
+  74  6.8580414e+04 6.37e-08 5.01e+00  -8.0 1.49e-02    -  1.00e+00 2.16e-01h  1
+  75  6.8580268e+04 6.03e-08 2.77e-02  -8.2 1.65e-02    -  1.00e+00 9.95e-01f  1
+  76  6.8580249e+04 1.86e-09 4.57e-03  -8.6 3.69e-03    -  1.00e+00 1.00e+00h  1
+  77  6.8580243e+04 5.90e-10 1.67e-04  -8.9 9.50e-04    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 77
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.3716048621448397e+01    6.8580243107241986e+04
+Dual infeasibility......:   1.6677750060028934e-04    8.3388750300144665e-01
+Constraint violation....:   5.9019855669362187e-10    5.9019855669362187e-10
+Variable bound violation:   6.0045715954970547e-08    6.0045715954970547e-08
+Complementarity.........:   2.9838196167673166e-09    1.4919098083836582e-05
+Overall NLP error.......:   1.6677750060028934e-04    8.3388750300144665e-01
+
+
+Number of objective function evaluations             = 81
+Number of objective gradient evaluations             = 78
+Number of equality constraint evaluations            = 81
+Number of inequality constraint evaluations          = 81
+Number of equality constraint Jacobian evaluations   = 78
+Number of inequality constraint Jacobian evaluations = 78
+Number of Lagrangian Hessian evaluations             = 0
+Total seconds in IPOPT                               = 23.151
+
+EXIT: Optimal Solution Found.
+input length: 1502
+load length: 400
+loaded the model from: /home/jxxiong/A-xjx/Evaluation/model/weights/no_regularization/
+[warn | PMSC]: update vm on bus 243 to be in bounds 0.899999990112941 -> 0.9
+[warn | PMSC]: update vm on bus 435 to be in bounds 1.1000000099554728 -> 1.1
+[warn | PMSC]: update vm on bus 4 to be in bounds 0.899999990056751 -> 0.9
+[warn | PMSC]: update vm on bus 145 to be in bounds 1.100000010937835 -> 1.1
+[warn | PMSC]: update bs on shunt 1 to be in bounds -7.643796214190323e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 12 to be in bounds -7.932139805265095e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 6 to be in bounds -8.928825779489665e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 13 to be in bounds -7.720826682768391e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 5 to be in bounds -8.758763129621347e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 16 to be in bounds -6.8746293968148415e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 14 to be in bounds -7.539127615967157e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 9 to be in bounds -7.62713859776391e-9 -> 0.0
+[warn | PMSC]: update bs on shunt 3 to be in bounds -7.686715966056149e-9 -> 0.0
+[warn | PMSC]: update pg on gen 29 to be in bounds -9.658472546279057e-9 -> 0.0
+[warn | PMSC]: update pg on gen 1 to be in bounds 0.04694000844738969 -> 0.04694
+[warn | PMSC]: update qg on gen 1 to be in bounds 0.06910000868955173 -> 0.0691
+[warn | PMSC]: update pg on gen 54 to be in bounds -9.710567337728933e-9 -> 0.0
+[warn | PMSC]: update qg on gen 54 to be in bounds 0.025700009875580257 -> 0.025699999999999997
+[warn | PMSC]: update pg on gen 78 to be in bounds 0.9437900084282607 -> 0.94379
+[warn | PMSC]: update qg on gen 78 to be in bounds -0.17730000970760815 -> -0.1773
+[warn | PMSC]: update pg on gen 81 to be in bounds 0.003899990328833008 -> 0.0039000000000000003
+[warn | PMSC]: update qg on gen 81 to be in bounds 0.0061000094856702705 -> 0.0060999999999999995
+[warn | PMSC]: update pg on gen 2 to be in bounds -7.319553536487119e-9 -> 0.0
+[warn | PMSC]: update qg on gen 2 to be in bounds 0.7565000063432044 -> 0.7565000000000001
+[warn | PMSC]: update pg on gen 74 to be in bounds 0.010430009536548593 -> 0.01043
+[warn | PMSC]: update qg on gen 74 to be in bounds 0.015400009527863034 -> 0.0154
+[warn | PMSC]: update pg on gen 51 to be in bounds -9.176434374383664e-9 -> 0.0
+[warn | PMSC]: update qg on gen 51 to be in bounds 0.7565000092479021 -> 0.7565000000000001
+[warn | PMSC]: update pg on gen 27 to be in bounds -4.644051580863269e-9 -> 0.0
+[warn | PMSC]: update qg on gen 27 to be in bounds -0.0007000096413755732 -> -0.0007000000000000001
+[warn | PMSC]: update pg on gen 75 to be in bounds 0.5046200089243948 -> 0.5046200000000001
+[warn | PMSC]: update qg on gen 75 to be in bounds 0.7430000086013223 -> 0.743
+[warn | PMSC]: update qg on gen 42 to be in bounds 0.9660000059620358 -> 0.966
+[warn | PMSC]: update pg on gen 33 to be in bounds 0.5137500094920859 -> 0.51375
+[warn | PMSC]: update qg on gen 33 to be in bounds 0.7565000097697097 -> 0.7565000000000001
+[warn | PMSC]: update pg on gen 28 to be in bounds 1.1110000091275332 -> 1.111
+[warn | PMSC]: update qg on gen 28 to be in bounds -0.12330000983943218 -> -0.1233
+[warn | PMSC]: update pg on gen 50 to be in bounds -9.77897698077425e-9 -> 0.0
+[warn | PMSC]: update qg on gen 50 to be in bounds 0.004600009830536458 -> 0.0046
+[warn | PMSC]: update pg on gen 52 to be in bounds 0.5046200061323567 -> 0.5046200000000001
+[warn | PMSC]: update pg on gen 63 to be in bounds 1.5760000155024596 -> 1.5759999999999998
+[warn | PMSC]: update qg on gen 63 to be in bounds -0.12920000697444997 -> -0.1292
+[warn | PMSC]: update pg on gen 88 to be in bounds 1.3695000113584936 -> 1.3695
+[warn | PMSC]: update qg on gen 88 to be in bounds -0.15200000971348268 -> -0.152
+[warn | PMSC]: update qg on gen 24 to be in bounds 1.9768000173794589 -> 1.9768000000000001
+[warn | PMSC]: update pg on gen 87 to be in bounds -9.835455994514669e-9 -> 0.0
+[warn | PMSC]: update qg on gen 87 to be in bounds 0.020000008209061563 -> 0.02
+[warn | PMSC]: update pg on gen 49 to be in bounds -9.838371697378906e-9 -> 0.0
+[warn | PMSC]: update qg on gen 49 to be in bounds 0.012700009906965681 -> 0.0127
+[warn | PMSC]: update pg on gen 89 to be in bounds 6.025500060045715 -> 6.025499999999999
+[warn | PMSC]: update qg on gen 89 to be in bounds 2.217400021277676 -> 2.2174
+[warn | PMSC]: update pg on gen 90 to be in bounds 0.5137500077234649 -> 0.51375
+[warn | PMSC]: update qg on gen 90 to be in bounds 0.7565000097214712 -> 0.7565000000000001
+[warn | PMSC]: update pg on gen 34 to be in bounds -2.8637180234082414e-9 -> 0.0
+[warn | PMSC]: update qg on gen 34 to be in bounds 0.6221000091548144 -> 0.6221
+[warn | PMSC]: update pg on gen 86 to be in bounds 0.4224800070769868 -> 0.42247999999999997
+[warn | PMSC]: update qg on gen 86 to be in bounds -0.07940000869252332 -> -0.0794
+[warn | PMSC]: update pg on gen 71 to be in bounds -9.830757579428022e-9 -> 0.0
+[warn | PMSC]: update qg on gen 71 to be in bounds -0.020700009339734194 -> -0.0207
+[warn | PMSC]: update qg on gen 37 to be in bounds -0.3582000096669038 -> -0.3582
+[warn | PMSC]: update pg on gen 73 to be in bounds 0.04694000555071325 -> 0.04694
+[warn | PMSC]: update qg on gen 73 to be in bounds 0.06910000906090413 -> 0.0691
+[warn | PMSC]: update pg on gen 79 to be in bounds 1.0092500092595702 -> 1.00925
+[warn | PMSC]: update qg on gen 79 to be in bounds 1.4861000144160335 -> 1.4861000000000002
+[warn | PMSC]: update pg on gen 84 to be in bounds -9.918226325073657e-9 -> 0.0
+[warn | PMSC]: update qg on gen 84 to be in bounds -0.0012000092029265553 -> -0.0012
+[warn | PMSC]: update pg on gen 80 to be in bounds 0.4224800094367195 -> 0.42247999999999997
+[warn | PMSC]: update qg on gen 80 to be in bounds -0.07940000945117147 -> -0.0794
+[warn | PMSC]: update pg on gen 70 to be in bounds -9.51516155786156e-9 -> 0.0
+[warn | PMSC]: update qg on gen 70 to be in bounds -0.022100009451099835 -> -0.022099999999999998
+[warn | PMSC]: update qg on gen 14 to be in bounds -0.9416000057027151 -> -0.9416
+[warn | PMSC]: update pg on gen 8 to be in bounds -9.537380954740823e-9 -> 0.0
+[warn | PMSC]: update qg on gen 8 to be in bounds 0.10750000920202374 -> 0.1075
+[warn | PMSC]: update pg on gen 64 to be in bounds -9.320040599348024e-9 -> 0.0
+[warn | PMSC]: update qg on gen 64 to be in bounds -0.027400009135681375 -> -0.0274
+[warn | PMSC]: update pg on gen 19 to be in bounds -9.723650128713506e-9 -> 0.0
+[warn | PMSC]: update qg on gen 19 to be in bounds -0.0030000087484174736 -> -0.003
+[warn | PMSC]: update qg on gen 60 to be in bounds -0.7289000094657081 -> -0.7289
+[warn | PMSC]: update pg on gen 4 to be in bounds -9.891725526819459e-9 -> 0.0
+[warn | PMSC]: update qg on gen 4 to be in bounds 0.003800009945975992 -> 0.0038
+[warn | PMSC]: update pg on gen 35 to be in bounds 0.0077999903004376415 -> 0.0078000000000000005
+[warn | PMSC]: update qg on gen 35 to be in bounds -0.0032000098985278842 -> -0.0032
+[warn | PMSC]: update pg on gen 13 to be in bounds -9.327154949709187e-9 -> 0.0
+[warn | PMSC]: update qg on gen 13 to be in bounds -0.0021000072005668497 -> -0.0021
+[warn | PMSC]: update pg on gen 67 to be in bounds 0.005220008664952818 -> 0.00522
+[warn | PMSC]: update qg on gen 67 to be in bounds 0.007700009368045817 -> 0.0077
+[warn | PMSC]: update pg on gen 16 to be in bounds -3.914249808956607e-9 -> 0.0
+[warn | PMSC]: update qg on gen 16 to be in bounds -0.007400009761069879 -> -0.0074
+[warn | PMSC]: update pg on gen 40 to be in bounds -6.080333174088756e-9 -> 0.0
+[warn | PMSC]: update qg on gen 40 to be in bounds 0.05530000976729025 -> 0.0553
+[warn | PMSC]: update pg on gen 21 to be in bounds 1.3331500128373226 -> 1.33315
+[warn | PMSC]: update qg on gen 21 to be in bounds -0.2505000097075544 -> -0.2505
+[warn | PMSC]: update pg on gen 46 to be in bounds -9.399606877643062e-9 -> 0.0
+[warn | PMSC]: update qg on gen 46 to be in bounds 0.7565000078693205 -> 0.7565000000000001
+[warn | PMSC]: update pg on gen 83 to be in bounds 1.000000008968538 -> 1.0
+[warn | PMSC]: update qg on gen 83 to be in bounds -0.11100000969363281 -> -0.111
+[warn | PMSC]: update pg on gen 45 to be in bounds 0.1929800060179577 -> 0.19297999999999998
+[warn | PMSC]: update qg on gen 45 to be in bounds -0.036300009776724304 -> -0.0363
+[warn | PMSC]: update pg on gen 56 to be in bounds 0.4224800096738912 -> 0.42247999999999997
+[warn | PMSC]: update qg on gen 56 to be in bounds -0.07940000965602563 -> -0.0794
+[warn | PMSC]: update pg on gen 66 to be in bounds -9.11917330458254e-9 -> 0.0
+[warn | PMSC]: update qg on gen 66 to be in bounds 0.23040000925644719 -> 0.2304
+[warn | PMSC]: update pg on gen 48 to be in bounds 0.06259000189777829 -> 0.06259
+[warn | PMSC]: update qg on gen 48 to be in bounds 0.09220000962114684 -> 0.0922
+[warn | PMSC]: update pg on gen 30 to be in bounds -9.919094286768736e-9 -> 0.0
+[warn | PMSC]: update qg on gen 30 to be in bounds 0.003800009676338201 -> 0.0038
+[info | PMSC]: ----, contingency, bus, branch, gen_cont, branch_cont, vm_count, bs_count, pg_count, qg_count, vm_max, bs_max, pg_max, qg_max, vm_mean, bs_mean, pg_mean, qg_mean
+[info | PMSC]: DATA_CHANGES, base_case, 500, 599, 51, 326, 4, 9, 45, 48, 1.0937834860058615e-8, 8.928825779489665e-9, 6.004571595497055e-8, 2.127767606552311e-8, 8.144723118164165e-9, 7.071196318793688e-9, 9.604261315365967e-9, 9.420279201917071e-9
+[ Info: local processes: 12 of 24
+[ Info: local proc start: 3.500377893447876
+[ Info: unable to find slurm node list environment variable
+[ Info: remote proc start: 1.9073486328125e-5
+[ Info: worker ids: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+┌ Warning: the function run_model has been replaced with solve_model
+└ @ PowerModels ~/.julia/packages/PowerModels/RhA7W/src/PowerModels.jl:92

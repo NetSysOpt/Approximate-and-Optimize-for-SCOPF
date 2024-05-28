@@ -1,0 +1,4 @@
+scenario,second_stage_runtime
+scenario_1,755.0515661239624
+scenario_1,744.7181551456451
+scenario_1,762.309711933136
